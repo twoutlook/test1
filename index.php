@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ALL);
 require 'vendor/autoload.php';
 function get_client_ip() {
     $ip = $_SERVER['REMOTE_ADDR'];
@@ -41,6 +41,6 @@ $visit_record=array('time'=>$dt_str, 'user_ip'=>$user_ip,'user_id'=>123,'usernam
 
 $logger = new Katzgrau\KLogger\Logger(__DIR__.'/logs');
 //$logger->info('Returned a million search results');
-//$logger->error('Oh dear.');
+$logger->error('Oh dear.');
 //$logger->debug('Got these users from the Database.', $users);
 $logger->debug('visit record', $visit_record);
