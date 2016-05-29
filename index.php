@@ -30,7 +30,7 @@ $users = [
     ],
 ];
 
-print_r($users);
+//print_r($users);
 
 date_default_timezone_set("Asia/Taipei");
 $dt = new DateTime();
@@ -38,7 +38,11 @@ $dt_str= $dt->format('Y-m-d H:i:s');
 
 $user_ip=get_client_ip();
 $visit_record=array('time'=>$dt_str, 'user_ip'=>$user_ip,'user_id'=>123,'username'=>"xyz@example.com");
-
+echo "<hr>";
+print_r($visit_record);
+echo "<hr>";
+echo __DIR__;
+echo "<hr>";
 $logger = new Katzgrau\KLogger\Logger(__DIR__.'/logs');
 //$logger->info('Returned a million search results');
 $logger->error('Oh dear.');

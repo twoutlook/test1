@@ -4,3 +4,21 @@
     user_ip: '::1'
     user_id: 123
     username: 'xyz@example.com'
+[2016-05-29 20:50:54.568279] [error] Oh dear.
+[2016-05-29 20:50:54.568445] [debug] visit record
+    time: '2016-05-29 20:50:54'
+    user_ip: '::1'
+    user_id: 123
+    username: 'xyz@example.com'
+[2016-05-29 20:51:10.946588] [error] Oh dear.
+[2016-05-29 20:51:10.946769] [debug] visit record
+    time: '2016-05-29 20:51:10'
+    user_ip: '::1'
+    user_id: 123
+    username: 'xyz@example.com'
+[2016-05-29 20:51:26.449500] [error] Oh dear.
+[2016-05-29 20:51:26.449609] [debug] visit record
+    time: '2016-05-29 20:51:26'
+    user_ip: '::1'
+    user_id: 123
+    username: 'xyz@example.com'
