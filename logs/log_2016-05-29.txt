@@ -1,0 +1,15 @@
+[2016-05-29 20:27:02.482598] [debug] visit record
+    time: '2016-05-29 20:27:02'
+    user_ip: '::1'
+    user_id: 999
+    username: 'abc@example.com'
+[2016-05-29 20:28:07.100997] [debug] visit record
+    time: '2016-05-29 20:28:07'
+    user_ip: '::1'
+    user_id: 123
+    username: 'xyz@example.com'
+[2016-05-29 20:30:07.752599] [debug] visit record
+    time: '2016-05-29 20:30:07'
+    user_ip: '::1'
+    user_id: 123
+    username: 'xyz@example.com'
